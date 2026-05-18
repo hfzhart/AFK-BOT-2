@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ["ffmpeg", "libopus-dev", "python3-dev"]
+
+[phases.build]
+cmds = ["pip install -r requirements.txt"]
